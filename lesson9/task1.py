@@ -1,0 +1,5 @@
+print('enter the number N')
+n = int(input())
+print('enter N numbers separated by a space')
+plenty = set(map(int, input().split()))
+print(len(plenty))

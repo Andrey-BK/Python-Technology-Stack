@@ -1,0 +1,12 @@
+#task 3
+print("enter mike's amount")
+mike = int(input())
+print("enter ivan's amount")
+ivan = int(input())
+print('enter minimum investment amount')
+min = int(input())
+if mike + ivan < min: print('0')
+elif mike >= min and ivan >= min: print('2')
+elif mike < min and ivan < min and mike + ivan >= min: print('1')
+elif mike >= min and ivan < min: print('mike')
+elif mike < min and ivan >= min: print('ivan')
